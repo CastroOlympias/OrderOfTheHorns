@@ -141,7 +141,9 @@ header nav ul li {
 }
 
 #box6 {
-    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     
     margin-left: auto;
     margin-right: auto;
@@ -149,7 +151,7 @@ header nav ul li {
     width: 670px;
     height: 210px;
     background:wheat;
-    font-size: 0px;
+    
 }
 
 #box6-child1 {
@@ -185,9 +187,6 @@ header nav ul li {
     position: relative;
 }
 
-.children {
-    display:inline-block;
-}
 
 /* footer styles */
 .footer {
