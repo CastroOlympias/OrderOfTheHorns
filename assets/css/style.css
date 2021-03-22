@@ -23,10 +23,13 @@ header {
 }
 
 header a {
-    font-style: oblique;
+    
     text-decoration: none;
     color: var(--primary-color)
-    
+}
+
+header h1 a {
+    font-style: oblique;
 }
 
 /* header navigation styles */
@@ -59,7 +62,7 @@ header nav ul li {
     display: flex;
     justify-content: right;
     flex-wrap: wrap;
-    background: purple;
+    background: darkcyan;
     padding: 6px;
     margin-left: 70%;
     
@@ -67,6 +70,8 @@ header nav ul li {
 
 .me {
     font-size: 40px;
+    color: darkcyan;
+    font-style: oblique;
 }
 
 /* header section styles */
@@ -91,7 +96,7 @@ header nav ul li {
     position: relative;
     
     text-align: right;
-    border-right: solid 4px black;
+    border-right: solid 4px darkcyan;
 }
 
 #box2 {
@@ -127,7 +132,7 @@ header nav ul li {
   
     padding: 30px;
     text-align: right;
-    border-right: 4px solid black;
+    border-right: 4px solid darkcyan;
     
 }
 
@@ -250,7 +255,7 @@ header nav ul li {
 .contact-me {
     width: 20%;
    
-    border-right: solid 4px black;
+    border-right: solid 4px darkcyan;
 }
 
 .contact-me h1 {
@@ -286,4 +291,9 @@ footer ul li {
     padding: 15px;
     list-style: none;
     font-size: 20px;
+    
+}
+
+footer ul li a {
+    color: darkcyan;
 }
