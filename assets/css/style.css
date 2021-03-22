@@ -78,8 +78,8 @@ header nav ul li {
 #section-1 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     
-    height: 200px;
     
     margin-top: 50px;
     
@@ -118,6 +118,7 @@ header nav ul li {
 #section-2 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     height: 600px;
     margin-top: 50px;
 }
@@ -163,7 +164,7 @@ header nav ul li {
 #boxes6-7 {
     display: flex;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -297,3 +298,114 @@ footer ul li {
 footer ul li a {
     color: darkcyan;
 }
+
+/* Media Query for smalerdesktop screens and smaller*/
+@media screen and (max-width: 980px) {
+        header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+    
+      header h1 {
+        width: 100%;
+        text-align: center;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+
+     
+      .about-me {
+        justify-content: center;
+        position: relative;
+        width: 80%;
+      }
+
+    .section-1  {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    #box1 {
+        width: 100%;
+        text-align: center;
+        border-right: 0px;
+    }
+
+    #box2 {
+        width: 100%;
+        border-right: 0px;
+    }
+
+    .section-2 {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    #box3 {
+        width: 100%;
+        text-align: center;
+        height: 100px;
+    }
+
+    #box4 {
+        width: 100%;
+    }
+
+    #box6 {
+        width: 80%;
+    }
+
+    #box7 {
+        width: 80%;
+    }
+
+    footer {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+        margin-top: 0px;
+    }
+}
+
+/* Media Query for tablets and smaller */
+@media screen and (max-width: 768px) {
+ 
+    
+    
+  
+    .step h3 {
+      flex: 1 100%;
+      text-align: center;
+    }
+  
+    .step-info {
+      flex: 2 100%;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .step-img {
+      flex: 0 32%;
+      margin-right: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .step-text {
+      flex: 100%;
+    }
+    
+  }
