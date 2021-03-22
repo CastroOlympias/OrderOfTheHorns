@@ -18,8 +18,13 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: rgb(48, 47, 47);
-    padding: 30px 35px;
+    padding: 25px 25px;
     font-size: 20px;
+    background-image: url("../images/hexagon.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: flex-start;
+    background-position: 80%;
 }
 
 header a {
@@ -39,6 +44,7 @@ header nav ul {
     justify-content: space-between;
     list-style: none;
     font-size: 22px;
+    padding: 25px 25px;
 }
 
 header nav ul li {
@@ -55,18 +61,32 @@ header nav ul li {
     align-items: flex-start;
     background-position: 80%;
     position: relative;
-    block-size: 200px;
+    block-size: 400px;
 }
 
-.hero .subtitle {
+.subtitle {
     display: flex;
     justify-content: right;
     flex-wrap: wrap;
-    background: darkcyan;
+    background-color: rgb(48, 47, 47);
     padding: 6px;
     margin-left: 70%;
     
 }
+
+.hero div {
+    border-radius: 20px;
+    
+}
+
+.hero p  {
+    color: cyan;
+    text-align: center;
+    border-radius: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+    
+
 
 .me {
     font-size: 40px;
@@ -153,6 +173,7 @@ header nav ul li {
     background-image: url("../images/headlight.jpg");
     background-size: cover;
     background-position: center;
+    
     
     
 }
