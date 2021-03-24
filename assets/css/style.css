@@ -12,6 +12,11 @@
     --tertiary-color: #39a6b2;
 }
 
+body {
+   max-width: 958px;
+ 
+}
+
 /* Start Header Styles */
 header {
     display: flex;
@@ -32,7 +37,8 @@ header a {
     color: var(--primary-color)
 }
 
-header h1 a {
+header h1 {
+    padding: 25px 25px;
     font-style: oblique;
 }
 
@@ -46,7 +52,7 @@ header nav ul {
 }
 
 header nav ul li {
-    padding: 15px;
+    padding: 20px;
 }
 /* End Header Styles */
 
@@ -74,7 +80,6 @@ header nav ul li {
 
 .hero div {
     border-radius: 20px;
-    
 }
 
 .hero p  {
@@ -226,7 +231,6 @@ header nav ul li {
 }
 
 #box7-child2 {
-    
     width: 100%;
     height: 45%;
     background: teal;
@@ -293,21 +297,14 @@ footer ul li a {
 /* End Footer/Contact Me Syles */
 
 /* Start Media Query For Smaller Screens */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 957px) {
     header {
         padding-bottom: 0;
         justify-content: center;
         position: relative;
     }
 
-    header h1 {
-        width: 100%;
-        text-align: center;
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    }
-
     header nav ul {
-        margin-top: 20px;
         width: 100%;
         justify-content: center;
     }
@@ -315,12 +312,6 @@ footer ul li a {
     header nav ul li a {
         font-size: 20px;
         text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    }
-
-    .about-me {
-        justify-content: center;
-        position: relative;
-        width: 80%;
     }
 
     .section-1  {
@@ -394,6 +385,7 @@ footer ul li a {
     footer ul {
         width: 100%;
     }
+
     .contact-links {
         display: flex;
         justify-content: space-between;
