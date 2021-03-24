@@ -13,7 +13,7 @@
 }
 
 body {
-   max-width: 958px;
+   max-width: 958;
  
 }
 
@@ -161,7 +161,7 @@ header nav ul li {
     margin-top: 20px;
     width: 95%;
     height: 350px;
-    background-image: url("../images/me.jpg");
+    background-image: url("../images/headlight.jpg");
     background-size: cover;
     background-position: center;
 }

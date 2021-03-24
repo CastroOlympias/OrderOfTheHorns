@@ -52,3 +52,10 @@ You are required to submit BOTH of the following for review:
 
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+
+Repo URL: https://github.com/CastroOlympias/OrderOfTheHorns
+
+Application URL: https://castroolympias.github.io/OrderOfTheHorns/
+
+Screen shot URL: https://github.com/CastroOlympias/OrderOfTheHorns/blob/main/screen-shot.jpg
