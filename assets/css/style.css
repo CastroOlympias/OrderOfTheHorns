@@ -297,7 +297,7 @@ footer ul li a {
 /* End Footer/Contact Me Syles */
 
 /* Start Media Query For Smaller Screens */
-@media screen and (max-width: 957px) {
+@media screen and (max-width: 958px) {
     header {
         padding-bottom: 0;
         justify-content: center;
